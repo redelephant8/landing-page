@@ -11,10 +11,15 @@ body {
 .first-section {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  padding: 75px 200px;
+  padding: 50px 200px;
   background-color: #1f2937;
   flex: 1 1 auto;
+}
+
+.first-section .left-side, .right-side {
+  padding: 30px;
 }
 
 .first-section .left-side {
