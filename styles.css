@@ -1,20 +1,17 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* background-color: #1F2937; */
   display: flex;
   height: 100vh;
   flex-direction: column;
   margin: 0;
 }
 
-main,
-header,
-footer {
-  /* padding: 0 100px; */
-}
+/* The hero section */
 
 .first-section {
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 75px 200px;
   background-color: #1f2937;
   flex: 1 1 auto;
@@ -51,7 +48,12 @@ footer {
   color: #f9faf8;
 }
 
+/* The images section */
+
 .second-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-color: white;
   text-align: center;
   padding: 20px 200px;
@@ -67,6 +69,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: baseline;
+  flex-wrap: wrap;
   gap: 32px;
 }
 
@@ -88,12 +91,13 @@ footer {
   width: 150px;
 }
 
+/* The quote section  */
+
 .third-section {
   background-color: #e5e7eb;
-  padding: 20px 400px;
+  padding: 20px 200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .third-section .quote {
@@ -101,17 +105,16 @@ footer {
   font-style: italic;
   font-weight: 200;
   color: #1f2937;
-  min-width: 70%;
-  align-items: center;
-  justify-content: center;
 }
 
 .third-section .name {
-  align-self: flex-end;
+  text-align: end;
   font-size: 24px;
   color: #1f2937;
   font-weight: bold;
 }
+
+/* The call-to-action section  */
 
 .fourth-section {
   height: 200px;
@@ -138,7 +141,7 @@ footer {
   color: #f9faf8;
 }
 
-.fourth-section .call{
+.fourth-section .call {
   font-weight: bold;
   font-size: 20px;
 }
@@ -155,7 +158,7 @@ footer {
 }
 
 .fourth-section .message {
-  margin-top: -10px
+  margin-top: -10px;
 }
 
 footer {
